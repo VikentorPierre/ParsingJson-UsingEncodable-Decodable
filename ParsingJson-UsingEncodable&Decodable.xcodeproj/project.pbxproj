@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		26E5C4FE20854232002FAED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5C4FD20854232002FAED3 /* AppDelegate.swift */; };
-		26E5C50020854232002FAED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5C4FF20854232002FAED3 /* ViewController.swift */; };
-		26E5C50320854232002FAED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E5C50120854232002FAED3 /* Main.storyboard */; };
 		26E5C50520854235002FAED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E5C50420854235002FAED3 /* Assets.xcassets */; };
 		26E5C50820854235002FAED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E5C50620854235002FAED3 /* LaunchScreen.storyboard */; };
+		26E5C51020854298002FAED3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5C50F20854298002FAED3 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26E5C4FA20854232002FAED3 /* ParsingJson-UsingEncodable&Decodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ParsingJson-UsingEncodable&Decodable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E5C4FD20854232002FAED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26E5C4FF20854232002FAED3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		26E5C50220854232002FAED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26E5C50420854235002FAED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26E5C50720854235002FAED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26E5C50920854235002FAED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E5C50F20854298002FAED3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +52,8 @@
 		26E5C4FC20854232002FAED3 /* ParsingJson-UsingEncodable&Decodable */ = {
 			isa = PBXGroup;
 			children = (
+				26E5C50F20854298002FAED3 /* MainVC.swift */,
 				26E5C4FD20854232002FAED3 /* AppDelegate.swift */,
-				26E5C4FF20854232002FAED3 /* ViewController.swift */,
-				26E5C50120854232002FAED3 /* Main.storyboard */,
 				26E5C50420854235002FAED3 /* Assets.xcassets */,
 				26E5C50620854235002FAED3 /* LaunchScreen.storyboard */,
 				26E5C50920854235002FAED3 /* Info.plist */,
@@ -124,7 +121,6 @@
 			files = (
 				26E5C50820854235002FAED3 /* LaunchScreen.storyboard in Resources */,
 				26E5C50520854235002FAED3 /* Assets.xcassets in Resources */,
-				26E5C50320854232002FAED3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +131,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E5C50020854232002FAED3 /* ViewController.swift in Sources */,
 				26E5C4FE20854232002FAED3 /* AppDelegate.swift in Sources */,
+				26E5C51020854298002FAED3 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		26E5C50120854232002FAED3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				26E5C50220854232002FAED3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		26E5C50620854235002FAED3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
